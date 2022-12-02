@@ -22,7 +22,7 @@ export const AddTodo = () => {
       <div className='input_container'>
         <input
           type='text'
-          placeholder='Enter todo...'
+          placeholder='What I am gonna do...'
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />

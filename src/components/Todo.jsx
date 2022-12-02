@@ -1,5 +1,6 @@
 import React from 'react';
 import './Todo.css';
+import { GrCheckmark, GrFormEdit, GrFormTrash } from 'react-icons/gr';
 // import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 // import EditIcon from '@mui/icons-material/Edit';
 // import DeleteIcon from '@mui/icons-material/Delete';
@@ -30,16 +31,16 @@ export const Todo = ({ todo, toggleComplete, handleDelete, handleEdit }) => {
           className='button-complete'
           onClick={() => toggleComplete(todo)}
         >
-          <p>complete</p>
+          <GrCheckmark size={20} />
         </button>
         <button
           className='button-edit'
           onClick={() => handleEdit(todo, newTitle)}
         >
-          <p>edit</p>
+          <GrFormEdit size={20} />
         </button>
         <button className='button-delete' onClick={() => handleDelete(todo.id)}>
-          <p>delete</p>
+          <GrFormTrash size={20} />
         </button>
       </div>
     </div>

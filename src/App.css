@@ -5,21 +5,9 @@
   justify-content: center;
 }
 body {
-  background-color: #cbcbf3;
+  background-image: linear-gradient(to right, purple, blue);
 }
 
-#i {
-  font-size: 35px;
-}
-
-@media screen and (max-width: 667px) {
-  .task_container {
-    width: 90%;
-  }
-  .task {
-    margin-right: 0px;
-  }
-}
 input:focus,
 button:focus {
   outline: none;
