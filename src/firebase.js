@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 import FIREBASE_API_KEY from './apiKey';
 
 const firebaseConfig = {
-  apiKey: FIREBASE_API_KEY,
+  apiKey: `${FIREBASE_API_KEY}`,
   authDomain: 'fir-todo-app-5c735.firebaseapp.com',
   projectId: 'fir-todo-app-5c735',
   storageBucket: 'fir-todo-app-5c735.appspot.com',
