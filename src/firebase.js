@@ -1,9 +1,10 @@
 import { initializeApp } from 'firebase/app';
-
+import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+import FIREBASE_API_KEY from './apiKey';
 
 const firebaseConfig = {
-  apiKey: `${process.env.REACT_APP_API_KEY}`,
+  apiKey: FIREBASE_API_KEY,
   authDomain: 'fir-todo-app-5c735.firebaseapp.com',
   projectId: 'fir-todo-app-5c735',
   storageBucket: 'fir-todo-app-5c735.appspot.com',
@@ -15,3 +16,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);
+export const auth = getAuth(app);

@@ -6,16 +6,20 @@
   margin-bottom: 10px;
 }
 .btn_container button {
-  background: green;
+  background-color: #adff2f;
   color: black;
   padding: 15px 40px;
   outline: none;
-  border: none;
+  border-style: solid;
   border-radius: 4px;
   font-size: 20px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
+  transition-duration: 0.2s;
+}
+.btn_container button:hover {
+  transform: scale(1.1);
 }
 
 form {

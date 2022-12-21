@@ -1,0 +1,31 @@
+.user {
+  color: #e1e198;
+  text-align: right;
+  margin: 25px 10px;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.user p {
+  font-size: 10px;
+  color: white;
+}
+.user button {
+  margin: 10px 10px;
+  padding: 5px 5px;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.user button:hover {
+  transform: scale(1.1);
+}
+
+.email {
+  text-decoration-line: underline;
+  font-size: 20x;
+  color: #9efd38;
+}

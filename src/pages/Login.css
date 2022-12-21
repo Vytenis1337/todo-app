@@ -1,0 +1,19 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.main-input {
+  width: 250px;
+  height: 30px;
+  margin: 5px;
+}
+
+.main-span {
+  font-size: 16px;
+  color: red;
+  margin-top: 10px;
+}
